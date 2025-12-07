@@ -22,6 +22,26 @@ git config --global user.email ["YOU@EMAIL.COM"]
 cria uma nova ramificação
 git checkout -b nova-feature
 
+Resetar Staging
+git reset
+
+
+----------------
+Criando uma Nova Branch
+
+cria uma brash e vai para essa brash
+git checkout -b alternativa_a
+
+informa a branch que está no momento
+git branch
+
+vai para a branch informada
+git checkout [MAIN]
+
+os arquivos da branch na qual está será substituída pelos arquivos da branch informada
+git merge alternativa_a
+
+
 -------------------------------------------------------------------
 Criando um Novo Repositório Local
 
@@ -48,6 +68,15 @@ git remote add origin [URL]
 Envie suas alterações para o GitHub
 git push -u origin main
 
+
+-------------------------------------------------------------------
+
+pegando um Repositório no Git
+
+esteja na pasta onde você quer importar que fique o arquivo que será importado do git
+cd /caminho/para/pasta
+
+git clone [URL]
 
 
 
