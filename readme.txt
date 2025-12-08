@@ -25,6 +25,9 @@ git checkout -b nova-feature
 Resetar Staging
 git reset
 
+sincronizar todas as branches remotas com o repositório local
+git fetch
+
 
 ----------------
 Criando uma Nova Branch
@@ -78,6 +81,25 @@ cd /caminho/para/pasta
 
 git clone [URL]
 
+
+
+-------------------------------------------------------------------
+
+----------------
+Atualizar Branch Local
+
+precisa está na mesma branch para fazer a atualização do remoto para o local
+git pull origin main
+
+
+----------------
+Mesclar Branch Remota no Local
+
+vá para a branch que será alterada
+git checkout [branch]
+
+depois escolha a branch que será mesclada na branch atual "onde você está"
+git pull origin [branch]
 
 
 
