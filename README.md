@@ -162,7 +162,17 @@ depois escolha a branch que será mesclada na branch atual "onde você está"
 ~~~MARKDOWN
 git pull origin [branch]
 ~~~
+----------------
+## guardar o TOKEN
 
+### Guardar TOKEN
+git config --global credential.helper store
+
+## Guardar TOKEN "recomendado para Windows
+git config --global credential.helper manager
+
+### tempo limite com o token guardado
+git config --global credential.helper 'cache --timeout=3600'
 
 
 
